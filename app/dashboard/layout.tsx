@@ -1,5 +1,6 @@
 // app/dashboard/layout.tsx
 "use client";
+export const dynamic = "force-dynamic";
 
 import { useTransition } from "react";
 
