@@ -39,3 +39,61 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ───────────────────────────────
+# NODE & PACKAGE MANAGERS
+# ───────────────────────────────
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ───────────────────────────────
+# NEXT.JS BUILD OUTPUT
+# ───────────────────────────────
+.next/
+out/
+dist/
+.vercel/
+
+# ───────────────────────────────
+# ENVIRONMENT VARIABLES
+# (NEVER commit SupabaseKeys)
+# ───────────────────────────────
+.env
+.env.*
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+*.env.preview
+
+# ───────────────────────────────
+# LOGS
+# ───────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# ───────────────────────────────
+# SUPABASE TEMP FILES
+# ───────────────────────────────
+supabase/.temp/
+supabase/.branches/
+supabase/migrations/**/old_*
+
+# ───────────────────────────────
+# OS / EDITOR JUNK
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ───────────────────────────────
+# TYPESCRIPT
+# ───────────────────────────────
+*.tsbuildinfo
+
